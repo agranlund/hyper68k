@@ -5,7 +5,7 @@ Library source and api header lives under [src/h68k/](src/h68k)
 
 Guest 68000 system runs in 68030 usermode and with virtualised super + usermode.
 
-Library takes care of privileged instruction emulation, virtualized address map, and translationg of exception frame differences between the two CPU models.
+Library takes care of privileged instruction emulation, virtualized address map, and translation of exception frame differences between the two CPU models.
 
 It alos provides an API allowing an application to easily customize the guest address map, marking ranges for translation, access error, direct passthrough or for getting a callback to application to perform peripheral emulation.
 
