@@ -1,0 +1,2 @@
+# third party code, excluded from github language statistics
+src/ext/**    linguist-vendored
